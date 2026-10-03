@@ -1,0 +1,40 @@
+{
+  "name": "@amrshbib/react-native-pushbib",
+  "version": "0.1.0",
+  "description": "Self-hosted push notification SDK for React Native. Pushbib-style API (login, tags, click events) with zero Firebase setup in the app — no google-services.json, no GoogleService-Info.plist.",
+  "main": "src/index.js",
+  "types": "index.d.ts",
+  "react-native": "src/index.js",
+  "files": [
+    "src",
+    "android/build.gradle",
+    "android/src",
+    "ios",
+    "index.d.ts",
+    "react-native-pushbib.podspec",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test test"
+  },
+  "keywords": [
+    "react-native",
+    "push-notifications",
+    "notifications",
+    "fcm",
+    "apns",
+    "self-hosted",
+    "pushbib-alternative"
+  ],
+  "author": "Amr Shbib <amr.shbib@mythings.app>",
+  "license": "MIT",
+  "homepage": "https://github.com/amrshbib/react-native-pushbib#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amrshbib/react-native-pushbib.git"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": ">=0.71.0"
+  }
+}

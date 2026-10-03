@@ -1,0 +1,16 @@
+.DS_Store
+node_modules/
+*.tgz
+
+# Android build output
+android/.gradle/
+android/build/
+android/local.properties
+*.iml
+.idea/
+
+# iOS / CocoaPods
+ios/Pods/
+ios/build/
+*.xcuserstate
+xcuserdata/
